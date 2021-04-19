@@ -1,0 +1,73 @@
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 13, 13);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgb(48, 167, 172);
+  }
+  body{
+    margin: 0px;
+    background-color:rgba(4, 59, 59, 0.932);
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  a:link{
+    color:white;
+  }
+  a:visited{
+    color:rgb(247, 239, 239);
+  }
+  /*.bodyimg{
+    position: relative;
+  }*/
+  .bodyimg p{
+    color:#f5eaea;
+    font-size: 55px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top:2%;
+    left:50%;
+    transform: translate(-50%,-50%);
+       }        
+      /*.bodyimg h3{
+    color:#1b1919;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 1100px;
+    position: absolute;
+    top:40%;
+    left:45%;
+    transform: translate(-40%, -40%);
+         }*/
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  .grid img{
+    border: 3px solid black;
+   
+  }
+  .origami {
+    
+    
+    background-color: #f8eded;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .origami:hover{
+  
+    transform: scale(1.2);
+  }
